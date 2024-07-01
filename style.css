@@ -1,149 +1,84 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%)
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: hsl(216, 12%, 8%);
-}
-
-.combined {
+.main{
+    background-color:hsl(213, 19%, 18%);
+    width: 25%;
     padding: 20px;
-    border-radius: 20px;
-    background-color: hsl(213, 19%, 18%);
+    margin-left: 40%;
+    border-radius: 40px;
+    display: block;
+    margin-top: 250px;
+}
+.main img{
+    background-color: hsl(218, 10%, 23%);
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+}
+.main p{
+    color: hsl(217, 12%, 63%);
+}
+.top4 ul{
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 40px;
+    margin-left: -5%;
 }
-
-.inner {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.top4 ul li{
+    list-style: none;
+    background-color: hsl(218, 10%, 23%);
+    padding: 10px;
+    border-radius: 15px;
+    color: hsl(217, 12%, 63%);
 }
-
-.star {
-    background-color: hsl(216, 12%, 54%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.top4 ul li:hover{
+    background-color: orange !important; 
 }
-
-.ratingnumber {
-    display: flex;
-    gap: 10px;
-
-    .one,
-    .two,
-    .three,
-    .four,
-    .five {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: hsl(216, 12%, 54%);
-        color: hsl(0, 0%, 100%);
-        cursor: pointer;
-    }
-
-    .one .active,
-    .two .active,
-    .three .active,
-    .four .active,
-    .five .active{
-        background-color: hsl(25, 97%, 53%);
-        color: hsl(0, 0%, 100%);
-
-    }
-}
-
-.head {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
-    h2 {
-        color: hsl(0, 0%, 100%);
-    }
-
-    p {
-        color: hsl(217, 12%, 63%);
-        font-size: 15px;
-    }
-}
-
-button {
+button{
     background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
-    padding: 15px;
-    width: 100%;
-    border: none;
+    color: white;
+    padding: 10px;
+    width: 99%;
     border-radius: 20px;
-    cursor: pointer;
+    border:none;
+    color: black;
 }
-
-button:active{
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(25, 97%, 53%);
+button:hover{
+    background-color: white;
 }
-
-.next {
-    background-color: hsl(213, 19%, 18%);
-    padding: 40px 20px;
-    border-radius: 20px;
+.main2{
+    background-color:hsl(213, 19%, 18%);
+    width: 22%;
+    padding: 20px;
+    margin-left: 40%;
+    border-radius: 40px;
+    display: none;
+    top: 250px;
     position: absolute;
-    scale: 0;
-
-    .full {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-
-        p {
-            color: hsl(25, 97%, 53%);
-            padding: 5px 10px;
-            background-color: hsla(217, 12%, 63%, 0.5);
-            border-radius: 20px;
-        }
-
-        .txt {
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            h2 {
-                color: hsl(0, 0%, 100%);
-            }
-
-            p {
-                width: 310px;
-                text-align: center;
-                font-size: 15px;
-                color: hsl(216, 12%, 54%);
-                background-color: transparent;
-            }
-        }
-    }
 }
-
-.popup{
-    scale: 1;
+.main2 img,.main2 h1{
+    margin-left: 25%
+}
+.main2 p{
+    color: hsl(217, 12%, 63%);
+}
+.middle{
+    margin-left: 5px;
+}
+.last{
+    margin-left: 40%;
+}
+.main2 h3{
+    background-color:hsl(218, 10%, 23%);
+    color: orange;
+    padding: 5px;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
 }
